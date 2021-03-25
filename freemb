@@ -1,9 +1,32 @@
 #!/bin/bash
 cd $HOME
-cd $PREFIX/bin/
-wget https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb1 && chmod 777 mb1
-wget https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb2 && chmod 777 mb2
-wget https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb3 && chmod 777 mb3
-wget https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb4 && chmod 777 mb4
-wget https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb5 && chmod 777 mb5
-cd $HOME
+clear
+
+
+echo -e "\033[1;32mESCOLHA UMAS DAS OPÇÕES ABAIXO:\033[1;37m"
+echo -e "\033[1;31m1)Ganhar 50MB (1 vez por dia)\033[1;37m"
+echo -e "\033[1;31m2)Ganhar 50MB (1 vez por dia)\033[1;37m"
+echo -e "\033[1;31m3)Ganhar 10MB (até 5 vezes por dia)\033[1;37m"
+echo -e "\033[1;31m4)VIVOEASY 50MB (1 vez por dia, somente pela manhã )\033[1;37m"
+echo -e "\033[1;31m5)TESTA TODAS AS OPÇÕES\033[1;37m"
+echo " "
+
+echo "INFORME UMA OPÇÃO:"
+read OPTION
+
+case $OPTION in
+        1) mb1
+        ;;
+        2) mb2
+        ;;
+        3) mb3
+        ;;
+        4) mb4
+        ;;
+        5) mb5
+        ;;
+        *) echo -e "\n\033[1;31mOpcao invalida !\033[0m"
+echo -e "\033[1;31m \033[1;33mPARA INICIAR NOVAMENTE DIGITE: \033[1;32freemb\033[0m"
+
+   sleep 2
+esac
