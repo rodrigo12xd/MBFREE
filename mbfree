@@ -5,7 +5,7 @@ echo "BAIXANDO RECURSOS..."
 rm mb1 > /dev/null 2>&1
 curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb1 && chmod 777 mb1 > /dev/null 2>&1
 rm mb2 > /dev/null 2>&1
-curl -sO && https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb2 && chmod 777 mb2 > /dev/null 2>&1
+curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb2 && chmod 777 mb2 > /dev/null 2>&1
 rm mb3 > /dev/null 2>&1
 curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb3 && chmod 777 mb3 > /dev/null 2>&1
 rm mb4 > /dev/null 2>&1
