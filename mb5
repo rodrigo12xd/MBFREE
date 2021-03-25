@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -e "\033[1;32m5) TESTANDO TODAS AS OPÇÕES\033[1;37m"
 echo -e "\033[1;31mTRUE = APROVADO , FALSE = REPROVADO\033[1;37m"
 echo "INFORME SEU NÚMERO (DDD+NÚMERO)"
