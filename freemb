@@ -25,9 +25,10 @@ case $OPTION in
         ;;
         5) mb5
         ;;
-        *) echo " "
+        *) echo -e "\033[1;31mOPCÃO INVÁLIDA!\033[1;37m"
 
    sleep 2
 esac
-echo -e "\n\033[1;31mOpcao invalida !\033[0m"
-echo -e "\033[1;31m \033[1;33mPARA INICIAR NOVAMENTE DIGITE: \033[1;32freemb\033[0m"
+clear
+freemb
+
