@@ -1,0 +1,19 @@
+#!/bin/bash
+cd $HOME
+cd $PREFIX/bin/
+echo "BAIXANDO RECURSOS..."
+rm mb1
+curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb1 && chmod 777 mb1
+rm mb2
+curl -sO && https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb2 && chmod 777 mb2
+rm mb3
+curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb3 && chmod 777 mb3
+rm mb4
+curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb4 && chmod 777 mb4
+rm mb5
+curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/mb5 && chmod 777 mb5
+rm freemb
+curl -sO https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/freemb && chmod 777 freemb
+cd $HOME
+clear
+freemb
