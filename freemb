@@ -1,0 +1,9 @@
+#!/bin/bash
+cd $HOME
+cd $PREFIX/bin/
+_mdls=("mb1" "mb2" "mb3" "mb4" "mb5")
+for _arq in ${_mdls[@]}; do
+	[[ -e $_dir1/$_arq ]] && rm $_dir1/$_arq >/dev/null 2>&1
+	wget -c -P $_dir1 https://raw.githubusercontent.com/rodrigo12xd/MBFREE/main/$_arq
+	chmod +x $_dir1/$_arq
+done
