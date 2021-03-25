@@ -1,3 +1,5 @@
+#!/bin/bash
+clear
 echo -e "\033[1;32m1) 50MB (1 VEZ POR DIA)\033[1;37m"
 echo -e "\033[1;31mTRUE = APROVADO , FALSE = REPROVADO\033[1;37m"
 echo "INFORME SEU NÚMERO (DDD+NÚMERO)"
