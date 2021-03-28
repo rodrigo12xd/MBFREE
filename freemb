@@ -6,8 +6,8 @@ clear
 echo -e "\033[1;32mESCOLHA UMAS DAS OPÇÕES ABAIXO:\033[1;37m"
 echo -e "\033[1;31m1)Ganhar 50MB (1 vez por dia)\033[1;37m"
 echo -e "\033[1;31m2)Ganhar 50MB (1 vez por dia)\033[1;37m"
-echo -e "\033[1;31m3)Ganhar 10MB (até 5 vezes por dia)\033[1;37m"
-echo -e "\033[1;31m4)VIVOEASY 50MB (1 vez por dia, somente pela manhã )\033[1;37m"
+echo -e "\033[1;31m3)Ganhar 50MB (NOVO)(1vez por dia)\033[1;37m"
+echo -e "\033[1;31m4)VIVOEASY 50MB (1 vez por dia)\033[1;37m"
 echo -e "\033[1;31m5)TESTAR TODAS AS OPÇÕES (RECOMENDADO)\033[1;37m"
 echo " "
 
